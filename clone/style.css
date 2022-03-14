@@ -3,3 +3,135 @@
 	padding: 0;
 }
 
+body{
+	font-family: "Avenir Next", "Segoi UI", Sans-serif;
+}
+
+header{
+	height: 2em;
+	background-color: #06AA48;
+	padding: 10px;
+}
+
+#fbmenu{
+	display: flex;
+	justify-content: space-between;
+}
+
+::placeholder{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#centro h1{
+	font-size: 38px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5px;
+	position: relative;
+	bottom: 10px;
+}
+
+#left, #left a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#right input{
+	background-color: rgba(0,0,0,.15);
+	border: none;
+	border-radius: 3px;
+	height: 2.1em;
+	width: 11em;
+	padding: 3px 6px;
+}
+
+/* Slides de conteudo
+*****************************************************************/
+
+#full{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#full #fbposts{
+	display: flex;
+	margin: 9em 0;
+}
+
+#main-slide, #second-slides{
+	width: 50%;
+	margin: 5px;
+}
+
+.slideg{
+	height: 450px;
+	background-image: url(img/tite.webp);
+	background-size: cover;
+}
+
+.slidep{
+	height: 220px;
+}
+
+.p1{
+	background-image: url(img/cr7.webp);
+	background-size: cover;
+}
+
+.p2{
+	background-image: url(img/nba.webp);
+	background-size: cover;
+	margin-top: 10px;
+}
+
+.p1, .p2, .slideg{
+	border-radius: 5px;
+}
+
+.abaixog{
+	position: relative;
+	top: 66%;
+	padding: 15px;
+}
+
+.abaixop{
+	position: relative;
+	top: 52%;
+	padding: 15px;
+}
+
+#second-slides h3, #main-slide h2{
+	color: #00C650;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+	font-weight: bold;
+}
+
+#second-slides p, #main-slide p{
+	color: #fff;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+}
+
+/* Conteudo abaixo
+****************************************************/
+
+#fblinks{
+	display: flex;
+	margin: 9em 0;
+	flex-direction: row-reverse;
+}
+
+#lat{
+	width: 32%;
+}
+
+#princ{
+	width: 68%;
+}
+
+.publicacao{
+	display: flex;
+}
